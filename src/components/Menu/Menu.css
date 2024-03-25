@@ -1,0 +1,22 @@
+header {
+    background-color: var(--bg-nav);
+    color: var(--text-primary);
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.menu-item nav ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.menu-item nav ul li {
+    font-size: 16px;
+}
